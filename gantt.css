@@ -1,0 +1,72 @@
+body {
+  font-family: Helvetica;
+}
+.bar {
+  width: 1390px;
+}
+.depth_0 {
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  margin: 10px 0px;
+}
+.depth_1 {
+  border-top: 1px dashed #ccc;
+}
+.depth_2 {
+  border-top: 1px dashed #ccc;
+}
+.atomic-task {
+  background-color: #eee;
+  border-top: 1px dashed #ccc;
+}
+.task {
+  width: 300px;
+  overflow-y: hidden;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.task-title {
+  line-height: 63px;
+  font-size: 14px;
+}
+.task-title-0 {
+  font-size: 22px;
+  color: #A30000;
+}
+.task-title-1 {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+.task-title-2 {
+  font-size: 14px;
+  color: #000;
+}
+.expand {
+  cursor: pointer;
+}
+rect {
+  stroke:#fff;
+}
+.chart {
+  margin-top: 100px;
+}
+.overlay {
+  position: absolute;
+  width: 1390px;
+  height: 100%;
+}
+.line {
+  stroke: #ccc;
+}
+ul {
+  position: absolute;
+  top: 60px;
+  left: 283px;
+  color: #999;
+}
+li {
+  margin: 0 43px;
+  display: inline;
+}
