@@ -1,4 +1,4 @@
-define ["./bar", "../sample"], (Bar, data) ->
+define ["./bar", "../sampledata"], (Bar, data) ->
   class Gantt
 
     constructor: ->
